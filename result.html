@@ -21,23 +21,27 @@
       }
 
       body {
-        font-family: S-CoreDream-3Light;
-      }
+  font-family: S-CoreDream-3Light;
+  font-size: 20px; /* 기본 텍스트 크기를 20px로 설정 */
+  font-weight: bold; /* 글씨를 더 두껍게 만듭니다 */
+  font-style: normal;
+       }
+
+
     </style>
     <title>MBTI</title>
   </head>
 
   <body>
-    <div
-      class="container d-flex flex-column justify-content-center align-items-center"
-    >
+    <div class="container d-flex flex-column justify-content-center align-items-center">
       <h1 class="text-center mb-5">당신의 MBTI는...</h1>
       <h2 class="text-primary mb-5" id="result"></h2>
+      <div class="mb-5" id="description"></div>
       <button
         type="button"
         class="btn btn-primary mb-5"
         onclick="window.location.href='./index.html'"
-        id="restart-button"
+        id="restart-btn"
       >
         다시하기
       </button>
