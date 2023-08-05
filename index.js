@@ -72,7 +72,81 @@ const questions = [
     yes: 'N',
     no: 'S',
   },
+  // 추가 질문
+  {
+    id: 13,
+    text: '질문 13',
+    yes: 'E',
+    no: 'I',
+  },
+  {
+    id: 14,
+    text: '질문 14',
+    yes: 'J',
+    no: 'P',
+  },
+  {
+    id: 15,
+    text: '질문 15',
+    yes: 'F',
+    no: 'T',
+  },
+  {
+    id: 16,
+    text: '질문 16',
+    yes: 'N',
+    no: 'S',
+  },
+  {
+    id: 17,
+    text: '질문 17',
+    yes: 'T',
+    no: 'F',
+  },
+  {
+    id: 18,
+    text: '질문 18',
+    yes: 'E',
+    no: 'I',
+  },
+  {
+    id: 19,
+    text: '질문 19',
+    yes: 'P',
+    no: 'J',
+  },
+  {
+    id: 20,
+    text: '질문 20',
+    yes: 'J',
+    no: 'P',
+  },
+  {
+    id: 21,
+    text: '질문 21',
+    yes: 'T',
+    no: 'F',
+  },
+  {
+    id: 22,
+    text: '질문 22',
+    yes: 'N',
+    no: 'S',
+  },
+  {
+    id: 23,
+    text: '질문 23',
+    yes: 'I',
+    no: 'E',
+  },
+  {
+    id: 24,
+    text: '질문 24',
+    yes: 'N',
+    no: 'S',
+  },
 ];
+
 
 
 // 현재 보여지는 질문의 인덱스
